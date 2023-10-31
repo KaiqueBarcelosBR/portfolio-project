@@ -18,6 +18,15 @@ header{
     padding: 20px 0;
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 800;
+    padding: 0;
+    margin: 10px 0;
+}
+
 header ul li{
     cursor: pointer;
     border-bottom: solid 2px #1934a9;
@@ -25,4 +34,51 @@ header ul li{
 
 .nav-menu ul li:hover{
     border-bottom: solid 2px #fff;
+    transition: .8s;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-field{
+    display: flex;
+    gap: 10px;
+}
+
+.search-area{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    gap: 5px;
+}
+
+.search-field button{
+    padding: 0 20px;
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    font-weight: 900;
+    font-size: .7rem;
+    border: 7px;
+}
+
+.search-field button:hover{
+    background-color: #fff;
+    color: #1934a9;
+    cursor: pointer;
+    transition: .8s;
+    border-radius: 7px;
+}
+
+.search-area input{
+    border: none;
+    width: 100%;
+}
+
+.search-area input:focus{
+    outline: none;
 }
