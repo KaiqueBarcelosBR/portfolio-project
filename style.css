@@ -133,3 +133,7 @@ header ul li{
     background-color: #8d8a8a;
 }
 
+.btn-blue:hover, .btn-gray:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
