@@ -6,6 +6,8 @@ html, body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Inicio - Sessão Principal */
+
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -104,6 +106,11 @@ header ul li{
     margin: 0 auto;
 }
 
+/* Fim - Sessão Principal */
+
+
+/* Inicio - botões */
+
 .btn-field{
     display: flex;
     justify-content: center;
@@ -136,4 +143,27 @@ header ul li{
 .btn-blue:hover, .btn-gray:hover{
     transform: scale(1.05);
     transition: .6s;
+}
+
+/* Fim - botões */
+
+
+/* Inicio - Sessão Galeria de fotos */
+
+.galeria-fotos{
+    background-color: #eee;
+    padding: 50px 0;
+}
+
+.card-field{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.card{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.424);
 }
