@@ -167,3 +167,18 @@ header ul li{
     padding: 10px;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.424);
 }
+
+/* Fim - Sessão Galeria de fotos */
+
+/* Inicio - Sessão Contato */
+
+.contato{
+    background-color: #5252e2;
+    color: #fff;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="textearea"], contact button[type="submit"]{
+    
+}
+
+/* Fim - Sessão Contato */
