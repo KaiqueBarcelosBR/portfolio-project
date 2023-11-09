@@ -216,7 +216,7 @@ header ul li{
     color: #fff;
     margin: 0 0 5px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -233,3 +233,38 @@ header ul li{
 }
 
 /* Fim - Sessão Contato */
+
+/*Inicio - Footer */
+
+footer{
+    padding: 50px 0;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer ul a{
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul a:hover{
+    transform: scale(1.5);
+    transition: .6s;
+}
+
+/*Fim - Footer */
